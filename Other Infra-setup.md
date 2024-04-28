@@ -28,6 +28,11 @@ To allow non-root users to run Docker commands, grant them read and write access
 ```bash
 sudo chmod 666 /var/run/docker.sock
 
+## Delete the Kubernetes Cluster
+```bash
+eksctl delete cluster --name EKS-1 --region eu-north-1
+
+
 
 
 
